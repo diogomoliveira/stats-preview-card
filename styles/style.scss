@@ -10,5 +10,10 @@ $White: hsl(0, 0%, 100%);
 $Slightly-transparent-white: hsla(0, 0%, 100%, 0.75);
 $Slightly-transparent-white-stats: hsla(0, 0%, 100%, 0.6);
 
+$font-size: 1.5rem;
+
 @import "general";
-@import "card"
+@import "card";
+@import "media_375";
+@import "media_980";
+@import "media_1050";
