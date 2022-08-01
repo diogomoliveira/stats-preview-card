@@ -1,0 +1,78 @@
+@media screen and (max-width: 375px){
+    .container {
+        //border: 1px solid white;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        max-width: 88%;
+    }
+
+    .stats {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .stats-table {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 1.6rem;
+    }
+
+    .card-text {
+        order: 2;
+        padding: 10%;
+
+        .main-text {
+            width: 100%;
+        }
+
+       h1 {
+           font-size: 2.6rem;
+           text-align: center;
+           line-height: 3.6rem;
+           margin-bottom: 1.2rem;
+       }
+
+       .paragraph {
+           text-align: center;
+           width: 100%;
+       }
+    }
+
+    .stats {
+        margin-top: 2.8rem;
+    }
+
+    .stats-title {
+        font-size: 1.2rem;
+    }
+    
+    .card-img {
+        border-radius: 1rem 1rem 0 0;
+        order: 1;
+    }
+
+    img {
+        border-radius: 1rem 1rem 0 0;
+    }
+
+    .img-desktop {
+        display: none;
+    }
+
+    .img-mobile {
+        display: block;
+        width: 100%;
+    }
+
+    .blank {
+        border-radius: 1rem 1rem 0 0;
+    }
+}
